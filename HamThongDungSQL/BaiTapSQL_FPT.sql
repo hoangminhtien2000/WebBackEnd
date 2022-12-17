@@ -41,37 +41,38 @@ FOREIGN KEY (dongXe) REFERENCES dongxe(dongXe),
 FOREIGN KEY (maMP) REFERENCES mucphi(maMP)
 );
 
+DROP TABLE dangkycungcap;
 DROP TABLE nhacungcap;
 DROP TABLE loaidichvu;
 DROP TABLE mucphi;
 DROP TABLE dongxe;
-DROP TABLE dangkycungcap;
 
-INSERT INTO forum.dongxe VALUES ('Cerato', 'KIA', '4');
-INSERT INTO forum.dongxe VALUES ('Hiace', 'Toyota', '6');
-INSERT INTO forum.dongxe VALUES ('KIA2022', 'KIA', '8');
-INSERT INTO forum.dongxe  VALUES ('Toyota2022', 'Toyota', '8');
-INSERT INTO forum.dongxe  VALUES ('Toyota2008', 'Toyota', '4');
-INSERT INTO forum.dongxe VALUES ('KIA2007', 'KIA', '5');
 
-INSERT INTO forum.mucPhi  VALUES ('MP01', 15000, 'Dòng xe đi với mức giá 15.000VNĐ/km');
-INSERT INTO forum.mucPhi  VALUES ('MP02', 20000, 'Dòng xe đi với mức giá 20.000VNĐ/km');
-INSERT INTO forum.mucPhi  VALUES ('MP03', 25000, 'Dòng xe đi với mức giá 25.000VNĐ/km');
-INSERT INTO forum.mucPhi  VALUES ('MP04', 30000, 'Dòng xe đi với mức giá 30.000VNĐ/km');
+INSERT INTO fpt.dongxe VALUES ('Cerato', 'KIA', '4');
+INSERT INTO fpt.dongxe VALUES ('Hiace', 'Toyota', '6');
+INSERT INTO fpt.dongxe VALUES ('KIA2022', 'KIA', '8');
+INSERT INTO fpt.dongxe  VALUES ('Toyota2022', 'Toyota', '8');
+INSERT INTO fpt.dongxe  VALUES ('Toyota2008', 'Toyota', '4');
+INSERT INTO fpt.dongxe VALUES ('KIA2007', 'KIA', '5');
 
-INSERT INTO forum.loaidichvu  VALUES ('DV01', 'Rửa xe');
-INSERT INTO forum.loaidichvu  VALUES ('DV02', 'Bảo dưỡng');
+INSERT INTO fpt.mucPhi  VALUES ('MP01', 15000, 'Dòng xe đi với mức giá 15.000VNĐ/km');
+INSERT INTO fpt.mucPhi  VALUES ('MP02', 20000, 'Dòng xe đi với mức giá 20.000VNĐ/km');
+INSERT INTO fpt.mucPhi  VALUES ('MP03', 25000, 'Dòng xe đi với mức giá 25.000VNĐ/km');
+INSERT INTO fpt.mucPhi  VALUES ('MP04', 30000, 'Dòng xe đi với mức giá 30.000VNĐ/km');
 
-INSERT INTO forum.nhacungcap  VALUES ('NCC01', 'My Car','Hà Nội','0923184756','MST0001');
-INSERT INTO forum.nhacungcap  VALUES ('NCC02', 'That Car','HCM','0926664756','MST0002');
-INSERT INTO forum.nhacungcap  VALUES ('NCC03', 'This Car','Đà Nẵng','0926688756','MST0003');
-INSERT INTO forum.nhacungcap  VALUES ('NCC04', 'That Car','HCM','0926664756','MST0004');
+INSERT INTO fpt.loaidichvu  VALUES ('DV01', 'Rửa xe');
+INSERT INTO fpt.loaidichvu  VALUES ('DV02', 'Bảo dưỡng');
 
-INSERT INTO forum.dangkycungcap  VALUES ('DKCC01', 'NCC01','DV02','KIA2022','MP02','2022/1/1','2023/1/1',100);
-INSERT INTO forum.dangkycungcap  VALUES ('DKCC02', 'NCC03','DV01','Cerato','MP01','2021/1/1','2022/1/1',50);
-INSERT INTO forum.dangkycungcap  VALUES ('DKCC03', 'NCC02','DV01','Hiace','MP04','2021/1/1','2022/1/1',80);
-INSERT INTO forum.dangkycungcap  VALUES ('DKCC04', 'NCC02','DV01','Toyota2008','MP03','2008/1/1','2009/1/1',60);
-INSERT INTO forum.dangkycungcap  VALUES ('DKCC05', 'NCC01','DV01','KIA2007','MP01','2007/1/1','2007/1/1',90);
+INSERT INTO fpt.nhacungcap  VALUES ('NCC01', 'My Car','Hà Nội','0923184756','MST0001');
+INSERT INTO fpt.nhacungcap  VALUES ('NCC02', 'That Car','HCM','0926664756','MST0002');
+INSERT INTO fpt.nhacungcap  VALUES ('NCC03', 'This Car','Đà Nẵng','0926688756','MST0003');
+INSERT INTO fpt.nhacungcap  VALUES ('NCC04', 'That Car','HCM','0926664756','MST0004');
+
+INSERT INTO fpt.dangkycungcap  VALUES ('DKCC01', 'NCC01','DV02','KIA2022','MP02','2022/1/1','2023/1/1',100);
+INSERT INTO fpt.dangkycungcap  VALUES ('DKCC02', 'NCC03','DV01','Cerato','MP01','2021/1/1','2022/1/1',50);
+INSERT INTO fpt.dangkycungcap  VALUES ('DKCC03', 'NCC02','DV01','Hiace','MP04','2021/1/1','2022/1/1',80);
+INSERT INTO fpt.dangkycungcap  VALUES ('DKCC04', 'NCC02','DV01','Toyota2008','MP03','2008/1/1','2009/1/1',60);
+INSERT INTO fpt.dangkycungcap  VALUES ('DKCC05', 'NCC01','DV01','KIA2007','MP01','2007/1/1','2007/1/1',90);
 
 SELECT*FROM nhacungcap;
 SELECT*FROM loaidichvu;
