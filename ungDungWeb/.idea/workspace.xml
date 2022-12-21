@@ -4,9 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6118355d-a7dc-4ac8-aac4-dce377689c1c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../BasicBootstrap/.idea/BasicTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicBootstrap/.idea/BasicTemplate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BasicBootstrap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicBootstrap/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ef6125b3-d327-48c8-90d9-5657c043cb73" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/src/main/java/com/example/tongquanungdungweb/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TongQuanUngDungWEB/src/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,28 +42,35 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+  <component name="ProjectId" id="2JDW6gTGcFD07tu2G6oar0y5Y6x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectId" id="2JCrRaueFSXuTsksBrdYcaY0DqW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="TomEE 9.0.70" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 9.0.70" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
+    <configuration name="Tomcat 9.0.70" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.70" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="Gradle : com.example : ungDungWeb-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="7ae84a9f-d94e-471a-b0e8-ff26676be7f5" />
+        <option name="BASE_DIRECTORY_NAME" value="3827470c-18d0-484e-a142-5225e5fa2549" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -53,7 +78,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="55361" />
+        <option name="DEBUG_PORT" value="65113" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -117,20 +142,21 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : ungDungWeb-1.0-SNAPSHOT.war" />
+        </option>
       </method>
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6118355d-a7dc-4ac8-aac4-dce377689c1c" name="Changes" comment="" />
-      <created>1671592899344</created>
+      <changelist id="ef6125b3-d327-48c8-90d9-5657c043cb73" name="Changes" comment="" />
+      <created>1671612964065</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1671592899344</updated>
-      <workItem from="1671592900699" duration="315000" />
-      <workItem from="1671593449730" duration="123000" />
-      <workItem from="1671593792751" duration="209000" />
+      <updated>1671612964065</updated>
+      <workItem from="1671612965770" duration="109000" />
     </task>
     <servers />
   </component>
@@ -147,5 +173,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
