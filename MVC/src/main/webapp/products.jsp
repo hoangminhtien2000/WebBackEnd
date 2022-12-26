@@ -24,7 +24,7 @@
 <div class="container">
     <h2>Danh sách sản phẩm</h2>
     <%--    <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>--%>
-    <a href="/createProduct.jsp" class="btn btn-success">Create</a>
+    <a href="create" class="btn btn-success">Create</a>
     <table class="table">
         <thead>
         <tr>
@@ -46,8 +46,8 @@
             <td>${p.price}</td>
             <c:if test="${p.status}"><td style="color: green">Sẵn sàng</td></c:if>
             <c:if test="${!p.status}"><td style="color: red">Hết hàng</td></c:if>
-            <td><button type="button" class="btn btn-warning">Edit</button></td>
-            <td><button type="button" class="btn btn-danger">Delete</button></td>
+            <td><a href="edits?id=${p.id}" type="button" class="btn btn-warning">Edit</a></td>
+            <td><a href="deletes?id=${p.id}" type="button" class="btn btn-danger">Delete</a></td>
         </tr>
         </c:forEach>
         </tbody>

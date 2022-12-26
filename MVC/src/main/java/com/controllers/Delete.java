@@ -1,6 +1,7 @@
 package com.controllers;
 
 import com.models.ListProduct;
+import com.models.Product;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -10,12 +11,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/products")
-public class ProductServletShow extends HttpServlet {
+@WebServlet(urlPatterns = "/deletes")
+public class Delete extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setAttribute("products", ListProduct.products);
-        RequestDispatcher requestDispatcher=req.getRequestDispatcher("/products.jsp");
-        requestDispatcher.forward(req,resp);
+        int id= Integer.parseInt(req.getParameter("id"));
+        int index =ListProduct.findByIndexID(id);
+        ListProduct.products.remove(index);
+        resp.sendRedirect("products");
     }
+
 }

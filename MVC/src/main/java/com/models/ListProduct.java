@@ -11,22 +11,29 @@ public class ListProduct {
         products.add(new Product(2, "K40Gaming", "https://cdn.tgdd.vn/Products/Images/42/238046/xiaomi-redmi-k40-game-enhanced-edition-600x600.jpg", 33000000, false));
     }
 
-    public int findByIndexID(int id) {
+    public static int findByIndexID(int id) {
         for (int i = 0; i < products.size(); i++) {
-            if (products.get(i).getId() == id) return id;
+            if (products.get(i).getId()==id) return i;
         }
         return -1;
     }
 
-    public void creat(Product product) {
+    public static Product findById(int id){
+        for (Product product : products) {
+            if (product.getId()==id) return product;
+        }
+        return null;
+    }
+
+    public static void create(Product product) {
         products.add(product);
     }
 
-    public void edit(int index, Product product) {
+    public static void edit(int index, Product product) {
         products.set(index, product);
     }
 
-    public void delete(int index) {
+    public static void delete(int index) {
         products.remove(index);
     }
 

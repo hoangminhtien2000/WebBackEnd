@@ -12,7 +12,8 @@
 </head>
 <body>
 <h1>Create Product</h1>
-<form method="post" action="/create">
+<a href="products" class="btn btn-warning">Back to List Product</a>
+<form method="post" action="create">
   <input name="id" placeholder="nhập id"><br>
   <input name="name" placeholder="nhập name"><br>
   <input name="img" placeholder="nhập img"><br>
