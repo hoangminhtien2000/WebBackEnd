@@ -337,4 +337,30 @@ SELECT tchitiethdb.SoHDB,tchitiethdb.MaSach,tsach.TenSach FROM tchitiethdb
 JOIN tsach USING(MaSach)
 WHERE MaSach='S11';
 
+-- Câu 11:Tìm các số hóa đơn đã mua sản phẩm có mã số “S01” hoặc “S02”, mỗi sản phẩm mua với
+-- số lượng từ 10 đến 20.
+SELECT SoHDB,MaSach,SLBan FROM tchitiethdb
+WHERE (MaSach='S01' OR MaSach='S02') AND (SLBan BETWEEN 10 AND 20);
+
+-- Câu 12: Tìm các số hóa đơn mua cùng lúc 2 sản phẩm có mã số “S10” và “S11”, mỗi sản phẩm
+-- mua với số lượng từ 5 đến 10
+SELECT tchitiethdb.SoHDB, tchitiethdb.MaSach,tchitiethdb.SLBan,tc1.MaSach,tc1.SLBan 
+FROM tchitiethdb
+JOIN tchitiethdb  tc1 USING(SoHDB) 
+WHERE (tchitiethdb.MaSach='S10' AND tc1.MaSach='S11') AND (tchitiethdb.SLBan BETWEEN 5 AND 10);
+
+-- Câu 13: In ra danh sách các sách không bán được
+SELECT tsach.*
+FROM tsach 
+LEFT JOIN tchitiethdb USING(MaSach)
+WHERE SoHDB IS NULL;
+
+-- Câu 14: In ra danh sách các sách không bán được trong năm 2014.
+SELECT *
+FROM tchitiethdb 
+LEFT JOIN thoadonban USING(SoHDB)
+LEFT JOIN tsach USING(MaSach)
+WHERE thoadonban.NgayBan BETWEEN '2014/1/1' AND '2014/12/31'
+;
+
 

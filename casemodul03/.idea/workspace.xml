@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4ab01ce-182a-4038-81a6-3d51d0197d6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MVC/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/acountdata.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/productdatabase.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/com/controllers/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/com/controllers/Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/com/dao/ConnectionMySql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/com/dao/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/com/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/com/filter/CheckLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/com/models/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/com/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/com/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/webapp/login/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/src/main/java/com/model/BillDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/src/main/java/com/model/Bills.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/src/main/java/com/model/Colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/src/main/java/com/model/Comments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/src/main/java/com/model/Img.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/src/main/java/com/model/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/src/main/java/com/model/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/src/main/java/com/model/Sizes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/src/main/java/com/model/Types.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/src/main/java/com/model/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_case3/src/main/java/com/model/Warehouses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/src/main/java/Servlet/CreateServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/src/main/java/Servlet/DeleteProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/src/main/java/Servlet/HomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/src/main/java/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/src/main/java/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLUD_Product/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD_Product/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_Product/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD_Product/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_Product/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD_Product/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_Product/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD_Product/src/main/java/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_Product/src/main/java/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS_Cascading Style Stylesheet/QuanLyBanHangBtap1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../CSS_Cascading Style Stylesheet/QuanLyBanHangBtap1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/java/com/controllers/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/src/main/java/com/controllers/Create.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/java/com/controllers/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/src/main/java/com/controllers/Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/java/com/controllers/Edit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/src/main/java/com/controllers/Edit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/java/com/controllers/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/src/main/java/com/controllers/Show.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/java/com/models/ListProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/java/com/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/src/main/java/com/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/webapp/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/src/main/webapp/product/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/webapp/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/src/main/webapp/product/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/webapp/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/src/main/webapp/product/products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product_CRUD/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product_CRUD/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product_CRUD/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product_CRUD/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product_CRUD/src/main/java/Servlet/CreateServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product_CRUD/src/main/java/Servlet/DeleteProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product_CRUD/src/main/java/Servlet/HomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product_CRUD/src/main/java/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product_CRUD/src/main/java/service/ProductService.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JZqY0nYbA6PAeeqICrN3x3TWx8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/webstorm/WebBackEnd/casemodul03&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\webstorm\casemodul03\src\main\webapp\product" />
+      <recent name="D:\webstorm\casemodul03\src\main\webapp" />
+      <recent name="D:\webstorm\casemodul03\src\main\java" />
+      <recent name="D:\webstorm\WebBackEnd\casemodul03\src\main\java\model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.701" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.701" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/products" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="Gradle : com.group5 : casemodul03-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="1a3cf223-3461-4486-b60b-346155ad38bc" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51772" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.group5 : casemodul03-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4ab01ce-182a-4038-81a6-3d51d0197d6f" name="Changes" comment="" />
+      <created>1672295998038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672295998038</updated>
+      <workItem from="1672295999736" duration="2523000" />
+      <workItem from="1672651608136" duration="3270000" />
+      <workItem from="1672661214163" duration="3704000" />
+      <workItem from="1672669154842" duration="77000" />
+      <workItem from="1672707556867" duration="30375000" />
+      <workItem from="1672744357820" duration="5061000" />
+      <workItem from="1672763224291" duration="1935000" />
+      <workItem from="1672793799604" duration="3966000" />
+      <workItem from="1672823226727" duration="478000" />
+      <workItem from="1673255428748" duration="92000" />
+      <workItem from="1673256338962" duration="221000" />
+      <workItem from="1673340393462" duration="837000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

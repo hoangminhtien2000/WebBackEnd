@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class LoginServlet {
+import javax.servlet.http.HttpServlet;
+
+public class LoginServlet extends HttpServlet {
+
 }

@@ -18,6 +18,13 @@ public class Product {
         this.status = status;
     }
 
+    public Product(String name, String img, int price, boolean status) {
+        this.name = name;
+        this.img = img;
+        this.price = price;
+        this.status = status;
+    }
+
     public int getId() {
         return id;
     }

@@ -1,9 +1,7 @@
 package com.controllers;
 
-import com.models.ListProduct;
-import com.models.Product;
+import com.service.ProductService;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -15,10 +13,8 @@ import java.io.IOException;
 public class Delete extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        int id= Integer.parseInt(req.getParameter("id"));
-        int index =ListProduct.findByIndexID(id);
-        ListProduct.products.remove(index);
-        resp.sendRedirect("products");
+        int id = Integer.parseInt(req.getParameter("id"));
+        ProductService.delete(id);
+        resp.sendRedirect("/products");
     }
-
 }

@@ -1,7 +1,8 @@
 package com.controllers;
 
-import com.models.ListProduct;
+import com.dao.ProductDAO;
 import com.models.Product;
+import com.service.ProductService;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -15,19 +16,17 @@ import java.io.IOException;
 public class Create extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setAttribute("products", ListProduct.products);
-        RequestDispatcher requestDispatcher=req.getRequestDispatcher("create.jsp" );
+        req.setAttribute("c", ProductService.getAll());
+        RequestDispatcher requestDispatcher=req.getRequestDispatcher("/product/create.jsp" );
         requestDispatcher.forward(req,resp);
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        int id= Integer.parseInt(req.getParameter("id"));
-        String name=req.getParameter("name");
-        String img=req.getParameter("img");;
-        int price= Integer.parseInt(req.getParameter("price"));;
-        boolean status= Boolean.parseBoolean(req.getParameter("status"));
-        ListProduct.products.add(new Product(id,name,img,price,status));
-        resp.sendRedirect("create");
+        String name = req.getParameter("name");
+        String img = req.getParameter("img");
+        int price = Integer.parseInt(req.getParameter("price"));
+        ProductService.save(new Product( name, img, price,true));
+        resp.sendRedirect("/create");
     }
 }

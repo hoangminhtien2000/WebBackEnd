@@ -1,6 +1,6 @@
 package com.controllers;
 
-import com.models.ListProduct;
+import com.service.ProductService;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -14,8 +14,8 @@ import java.io.IOException;
 public class Show extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setAttribute("products", ListProduct.products);
-        RequestDispatcher requestDispatcher=req.getRequestDispatcher("products.jsp" );
-        requestDispatcher.forward(req,resp);
+        req.setAttribute("products", ProductService.getAll());
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/product/products.jsp");
+        dispatcher.forward(req, resp);
     }
 }
